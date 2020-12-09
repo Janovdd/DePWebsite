@@ -1,0 +1,17 @@
+.card-intro {
+  background-color: white;
+  margin-top: -80px;
+  padding: 2rem 0;
+  box-shadow: $box-shadow;
+  z-index: 2;
+}
+
+.card {
+  border: 0;
+  border-radius: 0;
+  box-shadow: $box-shadow;
+
+  .card-img-top {
+    border-radius: 0;
+  }
+}

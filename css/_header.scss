@@ -1,0 +1,53 @@
+header {
+  margin-top: -80px;
+  background-image: url(/images/Background_purple.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  background-position: bottom center;
+  height: 90vh;
+  width: 100%;
+  overflow: hidden;
+
+  &.header-small {
+    position: relative;
+    height: 35vh;
+  }
+
+  .container {
+    padding-top: 0;
+    height: inherit;
+
+    .row {
+      height: inherit;
+
+      .col-10 {
+        height: fit-content;
+      }
+    }
+
+    video {
+      width: inherit;
+      height: auto;
+      border-width: 5px;
+      border-style: solid;
+      border-color: black;
+      z-index: 0;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+    .general {
+      position: absolute;
+      bottom: -10rem;
+      left: -10rem;
+      right: 50%;
+      width: auto;
+      height: 60vh;
+      z-index: 1;
+
+      img {
+        width: inherit;
+        height: inherit;
+      }
+    }
+  }
+}

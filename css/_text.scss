@@ -1,0 +1,24 @@
+h1,
+.h1 {
+  font-family: "Roboto", sans-serif;
+  color: $primary-color;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  color: $secondary-color;
+  font-weight: 500;
+}
+
+.title {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  font-family: "Roboto", sans-serif;
+  color: $color-white;
+  font-size: 3rem;
+  font-weight: 700;
+  transform: translateX(-50%);
+}

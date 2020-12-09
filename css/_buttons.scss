@@ -1,0 +1,71 @@
+.btn-outline-defense {
+    padding: 0.375rem 2rem;
+    margin: 0 0.375rem 1rem 0.375rem;
+    color: $color-black;
+    border-width: 1px;
+    border-style: solid;
+    border-color: $color-black;
+    border-radius: 25px;
+
+    &.is-checked {
+        color: white;
+        background-color: $primary-color;
+        border-color: $primary-color;
+    }
+    &:hover {
+        color: white;
+        background-color: $primary-color;
+        border-color: $primary-color;    }
+
+    &:active {
+        color: white;
+        background-color: $primary-color;
+        border-color: $primary-color;
+    }
+}
+
+.btn-outline-secondary {
+    color: $secondary-color;
+    border-color: $secondary-color;
+    border-radius: 25px;
+    &:hover {
+        background-color: $secondary-color;
+    }
+
+    &:active {
+        background-color: $secondary-color;
+    }
+}
+
+.btn-secondary {
+    background-color: $secondary-color;
+    border-radius: 25px;
+    border: 0;
+}
+
+a {
+    &.h3 {
+        color: $secondary-color;
+        text-decoration: none;
+        font-size: 1.5rem;
+        &:hover {
+            text-decoration: underline;
+        }
+
+        &:active {
+            text-decoration: underline;
+        }
+    }
+}
+
+.download-button {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    height: auto;
+    width: 175px;
+    z-index: 100;
+    transform: rotate(-90deg) translateX(175px);
+    transform-origin: 100% 100%;
+}
+
