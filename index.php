@@ -16,7 +16,7 @@
   <header>
     <div class="container" id="home">
       <div class="row">
-        <div class="col-12 col-lg-10 mx-auto align-self-center">
+        <div class="col-12 col-lg-10 col-xl-8 mx-auto align-self-center">
           <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="mx-auto">
             <source src="video/PromoFacebook.mp4" type="video/mp4">
           </video>
@@ -89,19 +89,18 @@
           <h3>Get a look into the playable maps in Don't eat Pete</h3>
         </div>
       </div>
-      <div class="container pt-4">
+      <div class="container pt-4 pb-0">
         <div class="row mb-3 mt-0">
-          <div class="owl-carousel items">
-              <a href="/images/Maps/MapsPromoForest.jpg" data-fancybox="gallery">
-                <img src="/images/Maps/MapsPromoForest.jpg" alt="Image Gallery" class="img-fluid">
-              </a>
-              <a href="/images/Maps/MapsPromoBeach.jpg" data-fancybox="gallery">
-                <img src="/images/Maps/MapsPromoBeach.jpg" alt="Image Gallery" class="img-fluid">
-              </a>
-              <a href="/images/Maps/MapsPromoHighway.jpg" data-fancybox="gallery">
-                <img src="/images/Maps/MapsPromoHighway.jpg" alt="Image Gallery" class="img-fluid">
-              </a>
-          </div>
+          <div class="owl-carousel owl-theme items h-100">
+            <a href="/images/Maps/MapsPromoForest.jpg" data-fancybox="gallery">
+              <img src="/images/Maps/MapsPromoForest.jpg" alt="Image Gallery" class="img-responsive">
+            </a>
+            <a href="/images/Maps/MapsPromoBeach.jpg" data-fancybox="gallery">
+              <img src="/images/Maps/MapsPromoBeach.jpg" alt="Image Gallery" class="img-responsive">
+            </a>
+            <a href="/images/Maps/MapsPromoHighway.jpg" data-fancybox="gallery">
+              <img src="/images/Maps/MapsPromoHighway.jpg" alt="Image Gallery" class="img-responsive">
+            </a>
         </div>
       </div>
   </section>

@@ -1,1 +1,36 @@
-.owl-item {}
+.owl-theme {
+    .owl-dots {
+        .owl-dot {
+            span {
+                background: white;
+            }
+        }
+    }
+
+}
+
+.owl-stage-outer {
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 5%;
+        content: '';
+        background: $color-black;
+        background: linear-gradient(90deg, $gradient-gray);
+        z-index: 5;
+    }
+
+    &::after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 5%;
+        content: '';
+        background: $color-black;
+        background: linear-gradient(-90deg, $gradient-gray);
+        z-index: 5;
+    }
+}

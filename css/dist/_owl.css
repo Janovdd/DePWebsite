@@ -1,0 +1,13 @@
+.owl-theme .owl-dots .owl-dot span {
+  background: white;
+}
+
+.owl-stage-outer {
+  width: 1px;
+}
+.owl-stage-outer::before {
+  content: "";
+}
+.owl-stage-outer::after {
+  content: "";
+}

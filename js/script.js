@@ -38,9 +38,9 @@ $(document).ready(function () {
 
   $('.owl-carousel').owlCarousel({
     loop: true,
-    margin: 50,
+    margin: 75,
     dots: true,
     items: 1,
-    stagePadding: 250
+    stagePadding: 350
   })
 });
